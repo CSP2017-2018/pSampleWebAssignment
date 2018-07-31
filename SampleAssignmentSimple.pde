@@ -7,12 +7,6 @@ JumpDog jd;
 int savedTime;
 int totalTime = 2000;
 
-//jump, speak, spin, change color
-//need dog stands and outside background
-//arraylist
-//speak
-//roll on a ball
-//put timer in for TV
 float startTime;
 
 void setup() {
@@ -40,7 +34,7 @@ void draw() {
     savedTime = millis(); // Save the current time to restart the timer!
   }
     textSize(20);
-    text("Welcome to the Dog Show! Inpsired by Olivia Alberts", 200, 40);
+    text("Welcome to the Dog Show! Inpsired by an RHS student", 200, 40);
 
     d.doTricks();
     d.speak();
