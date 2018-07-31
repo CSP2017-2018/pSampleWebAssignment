@@ -116,7 +116,7 @@ public class Dog {
 
 
   Dog() {
-    d1 = loadShape("dog.svg");
+    d1 = loadShape("images/dog.svg");
     d1pos =new PVector(0, 0);
     d1vel=new PVector(0, -.6);
   }
