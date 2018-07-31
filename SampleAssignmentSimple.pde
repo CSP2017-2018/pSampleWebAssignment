@@ -34,7 +34,7 @@ void draw() {
     savedTime = millis(); // Save the current time to restart the timer!
   }
     textSize(20);
-    text("Welcome to the Dog Show! Inpsired by an RHS student", 200, 40);
+    text("Welcome to the Dog Show! Inspired by an RHS student", 200, 40);
 
     d.doTricks();
     d.speak();
