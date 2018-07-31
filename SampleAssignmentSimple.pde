@@ -25,7 +25,7 @@ void draw() {
   int passedTime = millis() - savedTime;
   // Has five seconds passed?
   if (passedTime > totalTime) {
-    println("5 seconds have passed!");
+    println("arf arf!");
     if (on==true) {
       on=false;
     } else if (on==false) {
